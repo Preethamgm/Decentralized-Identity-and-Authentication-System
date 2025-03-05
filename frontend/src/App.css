@@ -1,0 +1,49 @@
+/* App Container */
+.app-container {
+  text-align: center;
+  padding: 50px;
+}
+
+/* Page Titles */
+h2 {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Form Inputs */
+form input {
+  width: 80%;
+  max-width: 300px;
+}
+
+/* Buttons inside Forms */
+form button {
+  width: 85%;
+  max-width: 320px;
+}
+
+/* Profile Details */
+.profile-container {
+  margin-top: 20px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+/* Logout Button */
+.logout-btn {
+  margin-top: 20px;
+  background: red;
+}
+
+.logout-btn:hover {
+  background: darkred;
+}
